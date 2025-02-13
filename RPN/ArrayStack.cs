@@ -28,7 +28,6 @@ namespace RPN
 
 
 
-
         public T Peek()
         {
             if (IsEmpty())
