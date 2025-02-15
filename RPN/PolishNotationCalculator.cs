@@ -13,6 +13,11 @@ namespace RPN
             stack = ArrayStack;
         }
 
+        /// <summary>
+        /// Evaluates a polish notation expression
+        /// </summary>
+        /// <param name="expression">The expression string</param>
+        /// <returns>Expression calculation</returns>
         public double Evaluate(string expression)
         {
             
